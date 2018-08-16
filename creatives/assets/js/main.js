@@ -7,7 +7,6 @@ $(document).ready(function() {
 		}
 	});
 
-
 	var btn = $(".menu-btn");
 	var btn_active = $(".menu-btn_active");
 	var menu = $(".menu-block-nav");
@@ -22,7 +21,5 @@ $(document).ready(function() {
 		btn.toggleClass(" menu-btn_active");
 		nav_link.toggleClass(" menu-block-nav_active");
 	});
-
-
 
 });
